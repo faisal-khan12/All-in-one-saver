@@ -52,13 +52,13 @@
             android:layout_margin="12dp"
             app:tabIndicatorHeight="0dp"
             app:tabMode="fixed"
-            app:tabRippleColor="null"
+            app:tabRippleColor="@null"
             app:tabSelectedTextColor="#CDDC39"
             app:tabTextColor="@color/black"
             app:tabTextAppearance="@style/TabLayout"/>
             <androidx.viewpager2.widget.ViewPager2
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/viewPager"/>
 
     </LinearLayout>
